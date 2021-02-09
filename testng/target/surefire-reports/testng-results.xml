@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="21" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-09T08:04:43Z" name="test" finished-at="2021-02-09T08:04:44Z" duration-ms="483">
+    <groups>
+      <group name="teacher">
+        <method signature="GroupsOnClass3.teacher1()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass3@38d5b107]" name="teacher1" class="com.dachan.testng.groups.GroupsOnClass3"/>
+        <method signature="GroupsOnClass3.teacher2()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass3@38d5b107]" name="teacher2" class="com.dachan.testng.groups.GroupsOnClass3"/>
+      </group> <!-- teacher -->
+      <group name="stu">
+        <method signature="GroupsOnClass1.stu1()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass1@27f0ad19]" name="stu1" class="com.dachan.testng.groups.GroupsOnClass1"/>
+        <method signature="GroupsOnClass1.stu2()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass1@27f0ad19]" name="stu2" class="com.dachan.testng.groups.GroupsOnClass1"/>
+        <method signature="GroupsOnClass2.stu1()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass2@54e81b21]" name="stu1" class="com.dachan.testng.groups.GroupsOnClass2"/>
+        <method signature="GroupsOnClass2.stu2()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass2@54e81b21]" name="stu2" class="com.dachan.testng.groups.GroupsOnClass2"/>
+        <method signature="GroupsOnClass1.stu1()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass1@130a0f66]" name="stu1" class="com.dachan.testng.groups.GroupsOnClass1"/>
+        <method signature="GroupsOnClass1.stu2()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass1@130a0f66]" name="stu2" class="com.dachan.testng.groups.GroupsOnClass1"/>
+        <method signature="GroupsOnClass2.stu1()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass2@4c432866]" name="stu1" class="com.dachan.testng.groups.GroupsOnClass2"/>
+        <method signature="GroupsOnClass2.stu2()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass2@4c432866]" name="stu2" class="com.dachan.testng.groups.GroupsOnClass2"/>
+      </group> <!-- stu -->
+    </groups>
+    <test started-at="2021-02-09T08:04:43Z" name="login" finished-at="2021-02-09T08:04:44Z" duration-ms="177">
+      <class name="com.dachan.testng.suite.SuiteConfig">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.dachan.testng.suite.SuiteConfig@3a7704c]" started-at="2021-02-09T16:04:43Z" name="beforeTest" finished-at="2021-02-09T16:04:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.dachan.testng.suite.SuiteConfig@3a7704c]" started-at="2021-02-09T16:04:44Z" name="afterTest" finished-at="2021-02-09T16:04:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.dachan.testng.suite.SuiteConfig -->
+      <class name="com.dachan.testng.suite.LoginTest">
+        <test-method signature="loginBaidu()[pri:0, instance:com.dachan.testng.suite.LoginTest@6754ef00]" started-at="2021-02-09T16:04:43Z" name="loginBaidu" finished-at="2021-02-09T16:04:43Z" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBaidu -->
+        <test-method signature="loginTaoBao()[pri:0, instance:com.dachan.testng.suite.LoginTest@6754ef00]" started-at="2021-02-09T16:04:44Z" name="loginTaoBao" finished-at="2021-02-09T16:04:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTaoBao -->
+      </class> <!-- com.dachan.testng.suite.LoginTest -->
+    </test> <!-- login -->
+    <test started-at="2021-02-09T08:04:44Z" name="pay" finished-at="2021-02-09T08:04:44Z" duration-ms="4">
+      <class name="com.dachan.testng.suite.SuiteConfig">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.dachan.testng.suite.SuiteConfig@4102b1b1]" started-at="2021-02-09T16:04:44Z" name="beforeTest" finished-at="2021-02-09T16:04:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.dachan.testng.suite.SuiteConfig@4102b1b1]" started-at="2021-02-09T16:04:44Z" name="afterTest" finished-at="2021-02-09T16:04:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.dachan.testng.suite.SuiteConfig -->
+      <class name="com.dachan.testng.suite.PayTest">
+        <test-method signature="paySuccess()[pri:0, instance:com.dachan.testng.suite.PayTest@61a5b4ae]" started-at="2021-02-09T16:04:44Z" name="paySuccess" finished-at="2021-02-09T16:04:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paySuccess -->
+      </class> <!-- com.dachan.testng.suite.PayTest -->
+    </test> <!-- pay -->
+    <test started-at="2021-02-09T08:04:44Z" name="param" finished-at="2021-02-09T08:04:44Z" duration-ms="10">
+      <class name="com.dachan.testng.parameter.ParameterTest">
+        <test-method signature="paramTest(java.lang.String, int)[pri:0, instance:com.dachan.testng.parameter.ParameterTest@25243bc1]" started-at="2021-02-09T16:04:44Z" name="paramTest" finished-at="2021-02-09T16:04:44Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[autotest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paramTest -->
+      </class> <!-- com.dachan.testng.parameter.ParameterTest -->
+    </test> <!-- param -->
+    <test started-at="2021-02-09T08:04:44Z" name="thread" finished-at="2021-02-09T08:04:44Z" duration-ms="16">
+      <class name="com.dachan.testng.BasicAnnotation">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.dachan.testng.BasicAnnotation@7726e185]" started-at="2021-02-09T16:04:44Z" name="beforeClass" finished-at="2021-02-09T16:04:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.dachan.testng.BasicAnnotation@7726e185]" started-at="2021-02-09T16:04:44Z" name="beforeMethod" finished-at="2021-02-09T16:04:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase01()[pri:0, instance:com.dachan.testng.BasicAnnotation@7726e185]" started-at="2021-02-09T16:04:44Z" name="testCase01" finished-at="2021-02-09T16:04:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.dachan.testng.BasicAnnotation@7726e185]" started-at="2021-02-09T16:04:44Z" name="afterMethod" finished-at="2021-02-09T16:04:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.dachan.testng.BasicAnnotation@7726e185]" started-at="2021-02-09T16:04:44Z" name="afterClass" finished-at="2021-02-09T16:04:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.dachan.testng.BasicAnnotation -->
+      <class name="com.dachan.testng.multiThread.MultiThreadOnXml">
+        <test-method signature="test1()[pri:0, instance:com.dachan.testng.multiThread.MultiThreadOnXml@aa5455e]" started-at="2021-02-09T16:04:44Z" name="test1" finished-at="2021-02-09T16:04:44Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:com.dachan.testng.multiThread.MultiThreadOnXml@aa5455e]" started-at="2021-02-09T16:04:44Z" name="test2" finished-at="2021-02-09T16:04:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:com.dachan.testng.multiThread.MultiThreadOnXml@aa5455e]" started-at="2021-02-09T16:04:44Z" name="test3" finished-at="2021-02-09T16:04:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- com.dachan.testng.multiThread.MultiThreadOnXml -->
+    </test> <!-- thread -->
+    <test started-at="2021-02-09T08:04:44Z" name="demo2" finished-at="2021-02-09T08:04:44Z" duration-ms="7">
+      <class name="com.dachan.testng.BasicAnnotation">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.dachan.testng.BasicAnnotation@3b4ef7]" started-at="2021-02-09T16:04:44Z" name="beforeClass" finished-at="2021-02-09T16:04:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.dachan.testng.BasicAnnotation@3b4ef7]" started-at="2021-02-09T16:04:44Z" name="beforeMethod" finished-at="2021-02-09T16:04:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase01()[pri:0, instance:com.dachan.testng.BasicAnnotation@3b4ef7]" started-at="2021-02-09T16:04:44Z" name="testCase01" finished-at="2021-02-09T16:04:44Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.dachan.testng.BasicAnnotation@3b4ef7]" started-at="2021-02-09T16:04:44Z" name="afterMethod" finished-at="2021-02-09T16:04:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.dachan.testng.BasicAnnotation@3b4ef7]" started-at="2021-02-09T16:04:44Z" name="afterClass" finished-at="2021-02-09T16:04:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.dachan.testng.BasicAnnotation -->
+    </test> <!-- demo2 -->
+    <test started-at="2021-02-09T08:04:44Z" name="runAll" finished-at="2021-02-09T08:04:44Z" duration-ms="19">
+      <class name="com.dachan.testng.groups.GroupsOnClass1">
+        <test-method signature="stu1()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass1@27f0ad19]" started-at="2021-02-09T16:04:44Z" name="stu1" finished-at="2021-02-09T16:04:44Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stu1 -->
+        <test-method signature="stu2()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass1@27f0ad19]" started-at="2021-02-09T16:04:44Z" name="stu2" finished-at="2021-02-09T16:04:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stu2 -->
+      </class> <!-- com.dachan.testng.groups.GroupsOnClass1 -->
+      <class name="com.dachan.testng.groups.GroupsOnClass3">
+        <test-method signature="teacher1()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass3@38d5b107]" started-at="2021-02-09T16:04:44Z" name="teacher1" finished-at="2021-02-09T16:04:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacher1 -->
+        <test-method signature="teacher2()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass3@38d5b107]" started-at="2021-02-09T16:04:44Z" name="teacher2" finished-at="2021-02-09T16:04:44Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacher2 -->
+      </class> <!-- com.dachan.testng.groups.GroupsOnClass3 -->
+      <class name="com.dachan.testng.groups.GroupsOnClass2">
+        <test-method signature="stu1()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass2@54e81b21]" started-at="2021-02-09T16:04:44Z" name="stu1" finished-at="2021-02-09T16:04:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stu1 -->
+        <test-method signature="stu2()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass2@54e81b21]" started-at="2021-02-09T16:04:44Z" name="stu2" finished-at="2021-02-09T16:04:44Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stu2 -->
+      </class> <!-- com.dachan.testng.groups.GroupsOnClass2 -->
+    </test> <!-- runAll -->
+    <test started-at="2021-02-09T08:04:44Z" name="onlyRunStu" finished-at="2021-02-09T08:04:44Z" duration-ms="69">
+      <class name="com.dachan.testng.groups.GroupsOnClass1">
+        <test-method signature="stu1()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass1@130a0f66]" started-at="2021-02-09T16:04:44Z" name="stu1" finished-at="2021-02-09T16:04:44Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stu1 -->
+        <test-method signature="stu2()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass1@130a0f66]" started-at="2021-02-09T16:04:44Z" name="stu2" finished-at="2021-02-09T16:04:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stu2 -->
+      </class> <!-- com.dachan.testng.groups.GroupsOnClass1 -->
+      <class name="com.dachan.testng.suite.SuiteConfig">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.dachan.testng.suite.SuiteConfig@4102b1b1]" started-at="2021-02-09T16:04:43Z" name="beforeSuite" finished-at="2021-02-09T16:04:43Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.dachan.testng.BasicAnnotation@3b4ef7]" started-at="2021-02-09T16:04:43Z" name="beforeSuite" finished-at="2021-02-09T16:04:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.dachan.testng.BasicAnnotation@3b4ef7]" started-at="2021-02-09T16:04:44Z" name="afterSuite" finished-at="2021-02-09T16:04:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:com.dachan.testng.suite.SuiteConfig@4102b1b1]" started-at="2021-02-09T16:04:44Z" name="aftersuite" finished-at="2021-02-09T16:04:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.dachan.testng.suite.SuiteConfig -->
+      <class name="com.dachan.testng.groups.GroupsOnClass2">
+        <test-method signature="stu1()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass2@4c432866]" started-at="2021-02-09T16:04:44Z" name="stu1" finished-at="2021-02-09T16:04:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stu1 -->
+        <test-method signature="stu2()[pri:0, instance:com.dachan.testng.groups.GroupsOnClass2@4c432866]" started-at="2021-02-09T16:04:44Z" name="stu2" finished-at="2021-02-09T16:04:44Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stu2 -->
+      </class> <!-- com.dachan.testng.groups.GroupsOnClass2 -->
+    </test> <!-- onlyRunStu -->
+  </suite> <!-- test -->
+</testng-results>

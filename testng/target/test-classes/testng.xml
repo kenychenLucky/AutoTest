@@ -1,0 +1,64 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test">
+
+    <test name="login">
+        <classes>
+            <class name="com.dachan.testng.suite.SuiteConfig"/>
+            <class name="com.dachan.testng.suite.LoginTest"/>
+        </classes>
+    </test>
+    <test name="pay">
+        <classes>
+            <class name="com.dachan.testng.suite.SuiteConfig"/>
+            <class name="com.dachan.testng.suite.PayTest"/>
+        </classes>
+    </test>
+
+    <test name="param">
+        <classes>
+            <class name="com.dachan.testng.parameter.ParameterTest"/>
+            <parameter name="name" value="autotest"/>
+            <parameter name="age" value="25"/>
+        </classes>
+    </test>
+
+
+    <test name="thread">
+        <classes>
+            <class name="com.dachan.testng.multiThread.MultiThreadOnXml"/>
+            <class name="com.dachan.testng.BasicAnnotation"/>
+            <class name="com.dachan.testng.multiThread.MultiThreadOnXml"/>
+        </classes>
+    </test>
+
+
+    <test name = "demo2">
+        <classes>
+            <class name="com.dachan.testng.BasicAnnotation"/>
+        </classes>
+
+    </test>
+
+
+    <test name="runAll">
+        <classes>
+            <class name="com.dachan.testng.groups.GroupsOnClass1"/>
+            <class name="com.dachan.testng.groups.GroupsOnClass2"/>
+            <class name="com.dachan.testng.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+
+    <test name="onlyRunStu">
+        <groups>
+            <run>
+                <include name="stu"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.dachan.testng.groups.GroupsOnClass1"/>
+            <class name="com.dachan.testng.groups.GroupsOnClass2"/>
+            <class name="com.dachan.testng.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+
+</suite>

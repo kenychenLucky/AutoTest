@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.403" tests="19" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\work\AutoTest\testng\target\test-classes;D:\work\AutoTest\testng\target\classes;C:\Users\dev\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\dev\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\dev\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\dev\.m2\repository\io\qameta\allure\allure-java-commons\2.12.1\allure-java-commons-2.12.1.jar;C:\Users\dev\.m2\repository\io\qameta\allure\allure-model\2.12.1\allure-model-2.12.1.jar;C:\Users\dev\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\dev\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\dev\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\dev\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\dev\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\dev\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\dev\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-api\3.0.0\selenium-api-3.0.0.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.0.0\selenium-chrome-driver-3.0.0.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.0.0\selenium-remote-driver-3.0.0.jar;C:\Users\dev\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\dev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\dev\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\dev\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\dev\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\dev\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\dev\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\dev\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\dev\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\dev\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\dev\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.0.0\selenium-firefox-driver-3.0.0.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.0.0\selenium-ie-driver-3.0.0.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-java\3.0.0\selenium-java-3.0.0.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.0.0\selenium-edge-driver-3.0.0.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.0.0\selenium-opera-driver-3.0.0.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.0.0\selenium-safari-driver-3.0.0.jar;C:\Users\dev\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-support\3.0.0\selenium-support-3.0.0.jar;C:\Users\dev\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\dev\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\dev\.m2\repository\com\codeborne\phantomjsdriver\1.3.0\phantomjsdriver-1.3.0.jar;C:\Users\dev\.m2\repository\io\qameta\allure\allure-testng\2.12.1\allure-testng-2.12.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk-15\bin"/>
+    <property name="sun.java.command" value="c:\Users\dev\AppData\Local\Temp\surefire14434796799167573719\surefirebooter11382285324280969797.jar C:\Users\dev\AppData\Local\Temp\surefire14434796799167573719 2021-02-09T16-04-42_173-jvmRun1 surefire8146479063316685885tmp surefire_013637866271726368084tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\work\AutoTest\testng\target\test-classes;D:\work\AutoTest\testng\target\classes;C:\Users\dev\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\dev\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\dev\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\dev\.m2\repository\io\qameta\allure\allure-java-commons\2.12.1\allure-java-commons-2.12.1.jar;C:\Users\dev\.m2\repository\io\qameta\allure\allure-model\2.12.1\allure-model-2.12.1.jar;C:\Users\dev\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\dev\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\dev\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\dev\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\dev\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\dev\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\dev\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-api\3.0.0\selenium-api-3.0.0.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.0.0\selenium-chrome-driver-3.0.0.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.0.0\selenium-remote-driver-3.0.0.jar;C:\Users\dev\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\dev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\dev\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\dev\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\dev\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\dev\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\dev\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\dev\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\dev\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\dev\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\dev\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.0.0\selenium-firefox-driver-3.0.0.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.0.0\selenium-ie-driver-3.0.0.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-java\3.0.0\selenium-java-3.0.0.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.0.0\selenium-edge-driver-3.0.0.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.0.0\selenium-opera-driver-3.0.0.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.0.0\selenium-safari-driver-3.0.0.jar;C:\Users\dev\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-support\3.0.0\selenium-support-3.0.0.jar;C:\Users\dev\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\dev\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\dev\.m2\repository\com\codeborne\phantomjsdriver\1.3.0\phantomjsdriver-1.3.0.jar;C:\Users\dev\.m2\repository\io\qameta\allure\allure-testng\2.12.1\allure-testng-2.12.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\dev"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-09-15"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk-15"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\work\AutoTest\testng"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="c:\Users\dev\AppData\Local\Temp\surefire14434796799167573719\surefirebooter11382285324280969797.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15+36-1562"/>
+    <property name="user.name" value="dev"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\dev\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="c:\Users\dev\AppData\Local\Temp\"/>
+    <property name="java.version" value="15"/>
+    <property name="user.dir" value="D:\work\AutoTest\testng"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk-15\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk-15\bin;C:\Program Files (x86)\NetSarang\Xshell 6\;D:\Python39\Scripts\;D:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;D:\Program Files\nodejs\;d:\Program Files\Git\cmd;D:\Program Files\Redis\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;d:\Program Files (x86)\NetSarang\Xftp 7\;&quot;;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools&quot;;D:\Julia 1.5.3\bin;D:\Python39\Scripts\;D:\Python39\;D:\Python39\bin;D:\Program Files\Java\jdk1.5.0\bin;C:\Users\dev\AppData\Local\Microsoft\WindowsApps;D:\tools\apache-jmeter-5.4\bin;D:\tools\apache-maven-3.6.3\bin;D:\tools\gradle-6.6.1\bin;D:\tools\dart-sdk\bin;D:\tools\flutter\bin;D:\tools\flutter\;d:\Programs\Microsoft VS Code\bin;C:\Users\dev\AppData\Roaming\npm;D:\tools\allure-2.13.6\bin;C:\Users\dev\AppData\Roaming\Pub\Cache\bin;C:\Users\dev\AppData\Local\Pub\Cache\bin;D:\Users\dev\AppData\Local\Android\Sdk\platform-tools;d:\Users\dev\AppData\Local\Android\Sdk\emulator;d:\Users\dev\AppData\Local\Android\Sdk\tools;d:\Users\dev\AppData\Local\Android\Sdk\tools\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15+36-1562"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="loginBaidu" classname="com.dachan.testng.suite.LoginTest" time="0.091"/>
+  <testcase name="loginTaoBao" classname="com.dachan.testng.suite.LoginTest" time="0.019"/>
+  <testcase name="paySuccess" classname="com.dachan.testng.suite.PayTest" time="0.001"/>
+  <testcase name="paramTest" classname="com.dachan.testng.parameter.ParameterTest" time="0.007"/>
+  <testcase name="test1" classname="com.dachan.testng.multiThread.MultiThreadOnXml" time="0.002"/>
+  <testcase name="test2" classname="com.dachan.testng.multiThread.MultiThreadOnXml" time="0.001"/>
+  <testcase name="test3" classname="com.dachan.testng.multiThread.MultiThreadOnXml" time="0.003"/>
+  <testcase name="testCase01" classname="com.dachan.testng.BasicAnnotation" time="0.001"/>
+  <testcase name="testCase01" classname="com.dachan.testng.BasicAnnotation" time="0.001"/>
+  <testcase name="stu1" classname="com.dachan.testng.groups.GroupsOnClass1" time="0.001"/>
+  <testcase name="stu1" classname="com.dachan.testng.groups.GroupsOnClass1" time="0.097"/>
+  <testcase name="stu2" classname="com.dachan.testng.groups.GroupsOnClass1" time="0"/>
+  <testcase name="stu2" classname="com.dachan.testng.groups.GroupsOnClass1" time="0"/>
+  <testcase name="stu1" classname="com.dachan.testng.groups.GroupsOnClass2" time="0"/>
+  <testcase name="stu1" classname="com.dachan.testng.groups.GroupsOnClass2" time="0.001"/>
+  <testcase name="stu2" classname="com.dachan.testng.groups.GroupsOnClass2" time="0.001"/>
+  <testcase name="stu2" classname="com.dachan.testng.groups.GroupsOnClass2" time="0"/>
+  <testcase name="teacher1" classname="com.dachan.testng.groups.GroupsOnClass3" time="0"/>
+  <testcase name="teacher2" classname="com.dachan.testng.groups.GroupsOnClass3" time="0.001"/>
+</testsuite>

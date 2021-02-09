@@ -2,7 +2,9 @@ D:\work\AutoTest\testng\src\main\java\com\dachan\testng\groups\GroupsOnClass3.ja
 D:\work\AutoTest\testng\src\main\java\com\dachan\testng\DependTest.java
 D:\work\AutoTest\testng\src\main\java\com\dachan\testng\suite\PayTest.java
 D:\work\AutoTest\testng\src\main\java\com\dachan\testng\multiThread\MultiThreadOnXml.java
+D:\work\AutoTest\testng\src\main\java\com\dachan\testng\WebAutoListener.java
 D:\work\AutoTest\testng\src\main\java\com\dachan\testng\BasicAnnotation.java
+D:\work\AutoTest\testng\src\main\java\com\dachan\testng\BaseTester.java
 D:\work\AutoTest\testng\src\main\java\com\dachan\testng\groups\GroupsOnClass2.java
 D:\work\AutoTest\testng\src\main\java\com\dachan\testng\suite\LoginTest.java
 D:\work\AutoTest\testng\src\main\java\com\dachan\testng\parameter\DataProviderTest.java

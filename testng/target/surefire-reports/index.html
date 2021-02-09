@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-test" class="navigator-link">
+              <span class="suite-name border-passed">test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-test" class="navigator-link ">
+                    <span>D:\work\AutoTest\testng\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-test" class="navigator-link ">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-test" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-test" class="hide-methods passed suite-test"> (hide)</a> <!-- hide-methods passed suite-test -->
+                      <a href="#" panel-name="suite-test" class="show-methods passed suite-test"> (show)</a> <!-- show-methods passed suite-test -->
+                    </span>
+                    <div class="method-list-content passed suite-test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.suite.LoginTest" class="method navigator-link" hash-for-method="loginBaidu">loginBaidu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.suite.LoginTest" class="method navigator-link" hash-for-method="loginTaoBao">loginTaoBao</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.parameter.ParameterTest" class="method navigator-link" hash-for-method="paramTest(autotest, 25)">paramTest(autotest, 25)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.suite.PayTest" class="method navigator-link" hash-for-method="paySuccess">paySuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.groups.GroupsOnClass1" class="method navigator-link" hash-for-method="stu1">stu1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.groups.GroupsOnClass2" class="method navigator-link" hash-for-method="stu1">stu1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.groups.GroupsOnClass2" class="method navigator-link" hash-for-method="stu1">stu1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.groups.GroupsOnClass1" class="method navigator-link" hash-for-method="stu1">stu1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.groups.GroupsOnClass2" class="method navigator-link" hash-for-method="stu2">stu2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.groups.GroupsOnClass1" class="method navigator-link" hash-for-method="stu2">stu2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.groups.GroupsOnClass2" class="method navigator-link" hash-for-method="stu2">stu2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.groups.GroupsOnClass1" class="method navigator-link" hash-for-method="stu2">stu2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.groups.GroupsOnClass3" class="method navigator-link" hash-for-method="teacher1">teacher1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.groups.GroupsOnClass3" class="method navigator-link" hash-for-method="teacher2">teacher2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.multiThread.MultiThreadOnXml" class="method navigator-link" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.multiThread.MultiThreadOnXml" class="method navigator-link" hash-for-method="test2">test2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.multiThread.MultiThreadOnXml" class="method navigator-link" hash-for-method="test3">test3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.BasicAnnotation" class="method navigator-link" hash-for-method="testCase01">testCase01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test" title="com.dachan.testng.BasicAnnotation" class="method navigator-link" hash-for-method="testCase01">testCase01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-test" class="panel test">
+          <div class="suite-test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dachan.testng.suite.PayTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="paySuccess">
+                  </a> <!-- paySuccess -->
+                  <span class="method-name">paySuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test-class-passed -->
+          <div class="suite-test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dachan.testng.multiThread.MultiThreadOnXml</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1">
+                  </a> <!-- test1 -->
+                  <span class="method-name">test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2">
+                  </a> <!-- test2 -->
+                  <span class="method-name">test2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test3">
+                  </a> <!-- test3 -->
+                  <span class="method-name">test3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test-class-passed -->
+          <div class="suite-test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dachan.testng.BasicAnnotation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase01">
+                  </a> <!-- testCase01 -->
+                  <span class="method-name">testCase01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase01">
+                  </a> <!-- testCase01 -->
+                  <span class="method-name">testCase01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test-class-passed -->
+          <div class="suite-test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dachan.testng.groups.GroupsOnClass1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="stu1">
+                  </a> <!-- stu1 -->
+                  <span class="method-name">stu1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stu1">
+                  </a> <!-- stu1 -->
+                  <span class="method-name">stu1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stu2">
+                  </a> <!-- stu2 -->
+                  <span class="method-name">stu2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stu2">
+                  </a> <!-- stu2 -->
+                  <span class="method-name">stu2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test-class-passed -->
+          <div class="suite-test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dachan.testng.parameter.ParameterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="paramTest(autotest, 25)">
+                  </a> <!-- paramTest(autotest, 25) -->
+                  <span class="method-name">paramTest</span>
+                  <span class="parameters">(autotest, 25)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test-class-passed -->
+          <div class="suite-test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dachan.testng.suite.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginBaidu">
+                  </a> <!-- loginBaidu -->
+                  <span class="method-name">loginBaidu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTaoBao">
+                  </a> <!-- loginTaoBao -->
+                  <span class="method-name">loginTaoBao</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test-class-passed -->
+          <div class="suite-test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dachan.testng.groups.GroupsOnClass3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="teacher1">
+                  </a> <!-- teacher1 -->
+                  <span class="method-name">teacher1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="teacher2">
+                  </a> <!-- teacher2 -->
+                  <span class="method-name">teacher2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test-class-passed -->
+          <div class="suite-test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dachan.testng.groups.GroupsOnClass2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="stu1">
+                  </a> <!-- stu1 -->
+                  <span class="method-name">stu1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stu1">
+                  </a> <!-- stu1 -->
+                  <span class="method-name">stu1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stu2">
+                  </a> <!-- stu2 -->
+                  <span class="method-name">stu2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stu2">
+                  </a> <!-- stu2 -->
+                  <span class="method-name">stu2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test-class-passed -->
+        </div> <!-- panel test -->
+        <div panel-name="test-xml-test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\work\AutoTest\testng\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;test&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test name=&quot;login&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dachan.testng.suite.SuiteConfig&quot;/&gt;
+      &lt;class name=&quot;com.dachan.testng.suite.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- login --&gt;
+  &lt;test name=&quot;pay&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dachan.testng.suite.SuiteConfig&quot;/&gt;
+      &lt;class name=&quot;com.dachan.testng.suite.PayTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- pay --&gt;
+  &lt;test name=&quot;param&quot;&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;autotest&quot;/&gt;
+    &lt;parameter name=&quot;age&quot; value=&quot;25&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dachan.testng.parameter.ParameterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- param --&gt;
+  &lt;test name=&quot;thread&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dachan.testng.multiThread.MultiThreadOnXml&quot;/&gt;
+      &lt;class name=&quot;com.dachan.testng.BasicAnnotation&quot;/&gt;
+      &lt;class name=&quot;com.dachan.testng.multiThread.MultiThreadOnXml&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- thread --&gt;
+  &lt;test name=&quot;demo2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dachan.testng.BasicAnnotation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- demo2 --&gt;
+  &lt;test name=&quot;runAll&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dachan.testng.groups.GroupsOnClass1&quot;/&gt;
+      &lt;class name=&quot;com.dachan.testng.groups.GroupsOnClass2&quot;/&gt;
+      &lt;class name=&quot;com.dachan.testng.groups.GroupsOnClass3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- runAll --&gt;
+  &lt;test name=&quot;onlyRunStu&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;stu&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dachan.testng.groups.GroupsOnClass1&quot;/&gt;
+      &lt;class name=&quot;com.dachan.testng.groups.GroupsOnClass2&quot;/&gt;
+      &lt;class name=&quot;com.dachan.testng.groups.GroupsOnClass3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- onlyRunStu --&gt;
+&lt;/suite&gt; &lt;!-- test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">login (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">pay (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">param (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">thread (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">demo2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">runAll (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">onlyRunStu (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">stu</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">stu1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">stu2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">teacher</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">teacher1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">teacher2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_test');
+function tableData_test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginBaidu')
+data.setCell(0, 2, 'com.dachan.testng.suite.LoginTest')
+data.setCell(0, 3, 49);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'paramTest')
+data.setCell(1, 2, 'com.dachan.testng.parameter.ParameterTest')
+data.setCell(1, 3, 4);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test1')
+data.setCell(2, 2, 'com.dachan.testng.multiThread.MultiThreadOnXml')
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCase01')
+data.setCell(3, 2, 'com.dachan.testng.BasicAnnotation')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'teacher2')
+data.setCell(4, 2, 'com.dachan.testng.groups.GroupsOnClass3')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'stu2')
+data.setCell(5, 2, 'com.dachan.testng.groups.GroupsOnClass2')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'stu1')
+data.setCell(6, 2, 'com.dachan.testng.groups.GroupsOnClass1')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'stu2')
+data.setCell(7, 2, 'com.dachan.testng.groups.GroupsOnClass2')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'stu1')
+data.setCell(8, 2, 'com.dachan.testng.groups.GroupsOnClass1')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginTaoBao')
+data.setCell(9, 2, 'com.dachan.testng.suite.LoginTest')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'paySuccess')
+data.setCell(10, 2, 'com.dachan.testng.suite.PayTest')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testCase01')
+data.setCell(11, 2, 'com.dachan.testng.BasicAnnotation')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test3')
+data.setCell(12, 2, 'com.dachan.testng.multiThread.MultiThreadOnXml')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test2')
+data.setCell(13, 2, 'com.dachan.testng.multiThread.MultiThreadOnXml')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'teacher1')
+data.setCell(14, 2, 'com.dachan.testng.groups.GroupsOnClass3')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'stu1')
+data.setCell(15, 2, 'com.dachan.testng.groups.GroupsOnClass2')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'stu2')
+data.setCell(16, 2, 'com.dachan.testng.groups.GroupsOnClass1')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'stu1')
+data.setCell(17, 2, 'com.dachan.testng.groups.GroupsOnClass2')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'stu2')
+data.setCell(18, 2, 'com.dachan.testng.groups.GroupsOnClass1')
+data.setCell(18, 3, 1);
+window.suiteTableData['test']= { tableData: data, tableDiv: 'times-div-test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 77 ms</span>
+              <div id="times-div-test">
+              </div> <!-- times-div-test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.dachan.testng.groups.GroupsOnClass3</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teacher2</span>
+                <br/>
+                <span class="ignored-method-name">teacher1</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dachan.testng.suite.SuiteConfig</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dachan.testng.BasicAnnotation</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dachan.testng.suite.SuiteConfig</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dachan.testng.suite.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginBaidu</span>
+                <span class="method-start">46 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTaoBao</span>
+                <span class="method-start">186 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dachan.testng.suite.SuiteConfig</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">201 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">236 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dachan.testng.suite.PayTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">paySuccess</span>
+                <span class="method-start">237 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dachan.testng.suite.SuiteConfig</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">239 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dachan.testng.parameter.ParameterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">paramTest(autotest, 25)</span>
+                <span class="method-start">247 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dachan.testng.multiThread.MultiThreadOnXml</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test1</span>
+                <span class="method-start">261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2</span>
+                <span class="method-start">264 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test3</span>
+                <span class="method-start">266 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dachan.testng.BasicAnnotation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">269 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">270 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase01</span>
+                <span class="method-start">271 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">273 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">274 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">352 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">353 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase01</span>
+                <span class="method-start">354 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">357 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">359 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dachan.testng.groups.GroupsOnClass1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">stu1</span>
+                <span class="method-start">365 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">stu2</span>
+                <span class="method-start">368 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dachan.testng.groups.GroupsOnClass2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">stu1</span>
+                <span class="method-start">371 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">stu2</span>
+                <span class="method-start">373 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dachan.testng.groups.GroupsOnClass3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">teacher1</span>
+                <span class="method-start">376 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">teacher2</span>
+                <span class="method-start">379 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dachan.testng.groups.GroupsOnClass1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">stu1</span>
+                <span class="method-start">440 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">stu2</span>
+                <span class="method-start">500 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dachan.testng.groups.GroupsOnClass2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">stu1</span>
+                <span class="method-start">502 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">stu2</span>
+                <span class="method-start">504 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dachan.testng.BasicAnnotation</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">515 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dachan.testng.suite.SuiteConfig</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">aftersuite</span>
+                <span class="method-start">515 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

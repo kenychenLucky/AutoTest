@@ -1,0 +1,21 @@
+# Created at 2021-02-09T16:04:42.775
+[AppClassLoader@6ff3c5b5] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+
+# Created at 2021-02-09T16:04:42.777
+[AppClassLoader@6ff3c5b5] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+
+# Created at 2021-02-09T16:04:43.140
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2021-02-09T16:04:43.140
+WARNING: Illegal reflective access by org.testng.xml.XMLParser (file:/C:/Users/dev/.m2/repository/org/testng/testng/6.11/testng-6.11.jar) to constructor com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl()
+
+# Created at 2021-02-09T16:04:43.141
+WARNING: Please consider reporting this to the maintainers of org.testng.xml.XMLParser
+
+# Created at 2021-02-09T16:04:43.142
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2021-02-09T16:04:43.142
+WARNING: All illegal access operations will be denied in a future release
+
