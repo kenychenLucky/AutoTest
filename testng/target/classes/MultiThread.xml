@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="threadTest" parallel="tests" thread-count="3">
+
+
+    <test name="thread">
+        <classes>
+            <class name="com.dachan.testng.multiThread.MultiThreadOnXml"/>
+            <class name="com.dachan.testng.BasicAnnotation"/>
+            <class name="com.dachan.testng.multiThread.MultiThreadOnXml"/>
+        </classes>
+    </test>
+
+
+    <test name = "demo2">
+        <classes>
+            <class name="com.dachan.testng.BasicAnnotation"/>
+        </classes>
+
+    </test>
+</suite>

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="parameterTest">
+    <test name="param">
+        <classes>
+            <class name="com.dachan.testng.parameter.ParameterTest"/>
+            <parameter name="name" value="autotest"/>
+            <parameter name="age" value="25"/>
+        </classes>
+    </test>
+</suite>

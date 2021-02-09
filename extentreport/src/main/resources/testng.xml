@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="extentreportTest">
+    <test name="report">
+        <classes>
+            <class name="com.dachan.tester.demo.TestMethodsDemo">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="logDemo"/>
+                </methods>
+            </class>
+            <class name="com.dachan.tester.demo.TestDemo">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <listeners>
+        <listener class-name="com.dachan.tester.demo.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
